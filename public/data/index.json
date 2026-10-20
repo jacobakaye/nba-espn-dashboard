@@ -1,1 +1,5 @@
-{"schemaVersion":1,"message":"Run the GitHub Actions workflow to fetch live ESPN data.","dates":[]}
+{
+  "schemaVersion": 1,
+  "lastRun": "2026-10-20T17:42:48Z",
+  "dates": "2026-10-20"
+}
