@@ -45,13 +45,31 @@ jobs:
         with:
           use-public-rspm: true
 
-      # 3. Install required R packages
+
       - name: Install R dependencies
         run: |
-          Rscript -e 'install.packages(
-            c("hoopR", "jsonlite"),
-            repos = "https://cloud.r-project.org"
-          )'
+          Rscript -e '
+            install.packages(
+              c("hoopR", "jsonlite"),
+              repos = c(
+                "https://sportsdataverse.r-universe.dev",
+                "https://cloud.r-project.org"
+              )
+            )
+
+            if (!requireNamespace("hoopR", quietly = TRUE)) {
+              stop("hoopR installation failed")
+            }
+
+            if (!requireNamespace("jsonlite", quietly = TRUE)) {
+              stop("jsonlite installation failed")
+            }
+
+            library(hoopR)
+            cat("hoopR version:", as.character(packageVersion("hoopR")), "\n")
+            cat("All required packages installed successfully!\n")
+          '
+
 
       # 4. Automatically determine today's NBA date
       - name: Set NBA date
