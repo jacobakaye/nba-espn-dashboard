@@ -5,8 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       nba_date:
-        description: "Optional date (YYYY-MM-DD)"
+        description: "Optional date (YYYY-MM-DD). Leave blank for today."
         required: false
+        default: ""
         type: string
 
   schedule:
@@ -21,28 +22,88 @@ concurrency:
 
 jobs:
   refresh:
+    name: Update ESPN NBA Dashboard
     runs-on: ubuntu-latest
     timeout-minutes: 90
 
-    steps:
-      - uses: actions/checkout@v4
+    defaults:
+      run:
+        shell: bash
 
-      - uses: r-lib/actions/setup-r@v2
+    env:
+      TZ: America/New_York
+
+    steps:
+
+      # 1. Download repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up R
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
 
+      # 3. Install required R packages
       - name: Install R dependencies
         run: |
           Rscript -e 'install.packages(
             c("hoopR", "jsonlite"),
-            repos="https://cloud.r-project.org"
+            repos = "https://cloud.r-project.org"
           )'
 
-      - name: Retrieve ESPN NBA data
+      # 4. Automatically determine today's NBA date
+      - name: Set NBA date
         env:
-          NBA_DATE: ${{ inputs.nba_date }}
-        run: Rscript scripts/update_data.R
+          REQUESTED_DATE: ${{ inputs.nba_date }}
+        run: |
+          if [ -n "$REQUESTED_DATE" ]; then
+            NBA_DATE="$REQUESTED_DATE"
+            echo "Using manually selected date"
+          else
+            NBA_DATE=$(TZ=America/New_York date +%Y-%m-%d)
+            echo "Using today's Eastern Time date"
+          fi
 
+          # Validate YYYY-MM-DD format
+          if ! [[ "$NBA_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "Invalid date format: $NBA_DATE"
+            exit 1
+          fi
+
+          # Validate real calendar date
+          if ! date -u -d "$NBA_DATE" +%F | grep -Fxq "$NBA_DATE"; then
+            echo "Invalid calendar date: $NBA_DATE"
+            exit 1
+          fi
+
+          echo "NBA_DATE=$NBA_DATE" >> "$GITHUB_ENV"
+
+          echo "================================"
+          echo "ESPN NBA DATA REFRESH"
+          echo "Date: $NBA_DATE"
+          echo "Timezone: America/New_York"
+          echo "================================"
+
+      # 5. Retrieve ESPN NBA data
+      - name: Retrieve ESPN NBA data
+        run: |
+          echo "Fetching NBA data for $NBA_DATE"
+          Rscript scripts/update_data.R
+
+      # 6. Check generated data
+      - name: Verify generated data
+        run: |
+          if [ ! -d "public/data" ]; then
+            echo "ERROR: public/data directory not found"
+            exit 1
+          fi
+
+          echo "Generated data files:"
+          find public/data -type f -name "*.json" | head -30
+
+      # 7. Commit updated JSON to GitHub
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
@@ -52,10 +113,13 @@ jobs:
           git add public/data/
 
           if git diff --cached --quiet; then
-            echo "No data changes"
+            echo "No data changes detected"
             exit 0
           fi
 
-          git commit -m "Update ESPN NBA data"
+          git commit -m "Update ESPN NBA data for $NBA_DATE"
+
           git pull --rebase origin main
           git push origin HEAD:main
+
+          echo "ESPN NBA data successfully updated!"
