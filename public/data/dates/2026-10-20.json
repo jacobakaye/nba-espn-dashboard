@@ -1,13 +1,74 @@
 {
   "date": "2026-10-20",
-  "updatedAt": "2026-10-20T17:42:48Z",
+  "updatedAt": "2026-10-20T18:12:15Z",
   "source": "ESPN via hoopR",
-  "games": [],
+  "games": [
+    {
+      "id": "401909088",
+      "date": "2026-10-20",
+      "time": "2026-10-20 15:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "2",
+        "name": "Boston Celtics",
+        "abbreviation": "BOS",
+        "score": "0",
+        "record": "0-0"
+      },
+      "home": {
+        "id": "8",
+        "name": "Detroit Pistons",
+        "abbreviation": "DET",
+        "score": "0",
+        "record": "0-0"
+      }
+    },
+    {
+      "id": "401909089",
+      "date": "2026-10-20",
+      "time": "2026-10-20 19:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "20",
+        "name": "Philadelphia 76ers",
+        "abbreviation": "PHI",
+        "score": "0",
+        "record": "0-0"
+      },
+      "home": {
+        "id": "18",
+        "name": "New York Knicks",
+        "abbreviation": "NY",
+        "score": "0",
+        "record": "0-0"
+      }
+    },
+    {
+      "id": "401909090",
+      "date": "2026-10-20",
+      "time": "2026-10-20 21:30:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "abbreviation": "OKC",
+        "score": "0",
+        "record": "0-0"
+      },
+      "home": {
+        "id": "24",
+        "name": "San Antonio Spurs",
+        "abbreviation": "SA",
+        "score": "0",
+        "record": "0-0"
+      }
+    }
+  ],
   "sections": [
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-20T17:42:46Z",
+      "updatedAt": "2026-10-20T18:12:13Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -15,7 +76,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-20T17:42:48Z",
+      "updatedAt": "2026-10-20T18:12:15Z",
       "status": "ok",
       "rows": [
         {
