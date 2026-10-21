@@ -19,12 +19,12 @@
       "record": "1-0"
     }
   },
-  "updatedAt": "2026-10-20T21:49:12Z",
+  "updatedAt": "2026-10-21T00:46:20Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-20T21:48:55Z",
+      "updatedAt": "2026-10-21T00:46:02Z",
       "status": "ok",
       "rows": [
         {
@@ -45,30 +45,16 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-20T21:48:56Z",
+      "updatedAt": "2026-10-21T00:46:04Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909088",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "BOS -1.5",
           "over_under": 220.5,
           "spread": 1.5,
-          "home_money_line": null,
-          "away_money_line": null,
-          "home_team_odds_open": null,
-          "home_team_odds_close": null,
-          "away_team_odds_open": null,
-          "away_team_odds_close": null
-        },
-        {
-          "event_id": "401909088",
-          "provider_id": "200",
-          "provider_name": "DraftKings - Live Odds",
-          "details": null,
-          "over_under": 234.5,
-          "spread": null,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -82,14 +68,14 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-20T21:48:57Z",
+      "updatedAt": "2026-10-21T00:46:05Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909088",
-          "official_id": "2616400",
-          "full_name": "Kevin Scott",
-          "display_name": "Kevin Scott",
+          "official_id": "6860",
+          "full_name": "Ed Malloy",
+          "display_name": "Ed Malloy",
           "position_id": "40",
           "position_name": "Referee",
           "position_type": null,
@@ -97,9 +83,9 @@
         },
         {
           "event_id": "401909088",
-          "official_id": "6860",
-          "full_name": "Ed Malloy",
-          "display_name": "Ed Malloy",
+          "official_id": "2616400",
+          "full_name": "Kevin Scott",
+          "display_name": "Kevin Scott",
           "position_id": "40",
           "position_name": "Referee",
           "position_type": null,
@@ -121,7 +107,7 @@
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-20T21:48:58Z",
+      "updatedAt": "2026-10-21T00:46:06Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -129,7 +115,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-20T21:49:00Z",
+      "updatedAt": "2026-10-21T00:46:07Z",
       "status": "ok",
       "rows": [
         {
@@ -1978,7 +1964,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-20T21:49:01Z",
+      "updatedAt": "2026-10-21T00:46:08Z",
       "status": "ok",
       "rows": [
         {
@@ -2276,7 +2262,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-20T21:49:02Z",
+      "updatedAt": "2026-10-21T00:46:10Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2284,7 +2270,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-20T21:49:03Z",
+      "updatedAt": "2026-10-21T00:46:11Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2292,7 +2278,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-20T21:49:04Z",
+      "updatedAt": "2026-10-21T00:46:12Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2300,7 +2286,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-20T21:49:06Z",
+      "updatedAt": "2026-10-21T00:46:13Z",
       "status": "ok",
       "rows": [
         {
@@ -4149,7 +4135,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-20T21:49:07Z",
+      "updatedAt": "2026-10-21T00:46:14Z",
       "status": "ok",
       "rows": [
         {
@@ -4464,7 +4450,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-20T21:49:08Z",
+      "updatedAt": "2026-10-21T00:46:15Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4472,7 +4458,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-20T21:49:09Z",
+      "updatedAt": "2026-10-21T00:46:17Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4480,7 +4466,7 @@
     {
       "label": "Player box score",
       "function": "espn_nba_player_box",
-      "updatedAt": "2026-10-20T21:49:11Z",
+      "updatedAt": "2026-10-21T00:46:18Z",
       "status": "ok",
       "rows": [
         {
@@ -6141,7 +6127,7 @@
     {
       "label": "Team box score",
       "function": "espn_nba_team_box",
-      "updatedAt": "2026-10-20T21:49:12Z",
+      "updatedAt": "2026-10-21T00:46:20Z",
       "status": "ok",
       "rows": [
         {
