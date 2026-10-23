@@ -19,12 +19,12 @@
       "record": "1-0"
     }
   },
-  "updatedAt": "2026-10-23T15:39:00Z",
+  "updatedAt": "2026-10-23T21:37:36Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-23T15:38:45Z",
+      "updatedAt": "2026-10-23T21:37:22Z",
       "status": "ok",
       "rows": [
         {
@@ -81,16 +81,16 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-23T15:38:46Z",
+      "updatedAt": "2026-10-23T21:37:23Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909851",
           "provider_id": "100",
-          "provider_name": "Draft Kings",
-          "details": "LAL -9.5",
+          "provider_name": "DraftKings",
+          "details": "LAL -8.5",
           "over_under": 225.5,
-          "spread": -9.5,
+          "spread": -8.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -104,7 +104,7 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-23T15:38:48Z",
+      "updatedAt": "2026-10-23T21:37:24Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -112,7 +112,7 @@
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-23T15:38:49Z",
+      "updatedAt": "2026-10-23T21:37:25Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -120,7 +120,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-23T15:38:50Z",
+      "updatedAt": "2026-10-23T21:37:27Z",
       "status": "ok",
       "rows": [
         {
@@ -1969,7 +1969,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-23T15:38:51Z",
+      "updatedAt": "2026-10-23T21:37:28Z",
       "status": "ok",
       "rows": [
         {
@@ -2284,7 +2284,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-23T15:38:52Z",
+      "updatedAt": "2026-10-23T21:37:29Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2292,7 +2292,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-23T15:38:54Z",
+      "updatedAt": "2026-10-23T21:37:30Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2300,7 +2300,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-23T15:38:55Z",
+      "updatedAt": "2026-10-23T21:37:31Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2308,7 +2308,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-23T15:38:56Z",
+      "updatedAt": "2026-10-23T21:37:33Z",
       "status": "ok",
       "rows": [
         {
@@ -4157,7 +4157,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-23T15:38:57Z",
+      "updatedAt": "2026-10-23T21:37:34Z",
       "status": "ok",
       "rows": [
         {
@@ -4472,7 +4472,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-23T15:38:59Z",
+      "updatedAt": "2026-10-23T21:37:35Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4480,7 +4480,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-23T15:39:00Z",
+      "updatedAt": "2026-10-23T21:37:36Z",
       "status": "empty",
       "rows": [],
       "error": null

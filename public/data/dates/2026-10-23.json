@@ -1,25 +1,25 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T15:36:08Z",
+  "updatedAt": "2026-10-23T21:34:42Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909848",
       "date": "2026-10-23",
       "time": "2026-10-23 16:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "4",
         "name": "Chicago Bulls",
         "abbreviation": "CHI",
-        "score": "0",
+        "score": "71",
         "record": "0-1"
       },
       "home": {
         "id": "15",
         "name": "Milwaukee Bucks",
         "abbreviation": "MIL",
-        "score": "0",
+        "score": "72",
         "record": "0-1"
       }
     },
@@ -248,7 +248,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-23T15:36:07Z",
+      "updatedAt": "2026-10-23T21:34:41Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -256,23 +256,9 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-23T15:36:08Z",
+      "updatedAt": "2026-10-23T21:34:42Z",
       "status": "ok",
       "rows": [
-        {
-          "team_id": null,
-          "athlete_id": null,
-          "athlete_name": null,
-          "position": null,
-          "status": null,
-          "date": null,
-          "type": null,
-          "side": null,
-          "returns_at": null,
-          "short_comment": null,
-          "long_comment": null,
-          "season": 2027
-        },
         {
           "team_id": null,
           "athlete_id": null,
