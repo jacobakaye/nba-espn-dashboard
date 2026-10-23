@@ -1,25 +1,25 @@
 {
   "date": "2026-10-22",
-  "updatedAt": "2026-10-22T22:12:53Z",
+  "updatedAt": "2026-10-23T00:49:28Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909093",
       "date": "2026-10-22",
       "time": "2026-10-22 19:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "5",
         "name": "Cleveland Cavaliers",
         "abbreviation": "CLE",
-        "score": "0",
+        "score": "80",
         "record": "0-0"
       },
       "home": {
         "id": "20",
         "name": "Philadelphia 76ers",
         "abbreviation": "PHI",
-        "score": "0",
+        "score": "66",
         "record": "1-0"
       }
     },
@@ -48,7 +48,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-22T22:12:51Z",
+      "updatedAt": "2026-10-23T00:49:27Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -56,23 +56,9 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-22T22:12:53Z",
+      "updatedAt": "2026-10-23T00:49:28Z",
       "status": "ok",
       "rows": [
-        {
-          "team_id": null,
-          "athlete_id": null,
-          "athlete_name": null,
-          "position": null,
-          "status": null,
-          "date": null,
-          "type": null,
-          "side": null,
-          "returns_at": null,
-          "short_comment": null,
-          "long_comment": null,
-          "season": 2027
-        },
         {
           "team_id": null,
           "athlete_id": null,
