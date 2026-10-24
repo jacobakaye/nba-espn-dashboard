@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updatedAt": "2026-10-23T21:34:42Z",
+  "updatedAt": "2026-10-24T00:57:37Z",
   "source": "ESPN via hoopR",
   "games": [
     {
@@ -12,14 +12,14 @@
         "id": "4",
         "name": "Chicago Bulls",
         "abbreviation": "CHI",
-        "score": "71",
+        "score": "112",
         "record": "0-1"
       },
       "home": {
         "id": "15",
         "name": "Milwaukee Bucks",
         "abbreviation": "MIL",
-        "score": "72",
+        "score": "106",
         "record": "0-1"
       }
     },
@@ -248,7 +248,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-23T21:34:41Z",
+      "updatedAt": "2026-10-24T00:57:36Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -256,7 +256,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-23T21:34:42Z",
+      "updatedAt": "2026-10-24T00:57:37Z",
       "status": "ok",
       "rows": [
         {

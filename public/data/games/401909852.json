@@ -19,12 +19,12 @@
       "record": "0-1"
     }
   },
-  "updatedAt": "2026-10-23T21:37:52Z",
+  "updatedAt": "2026-10-24T01:00:48Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-23T21:37:38Z",
+      "updatedAt": "2026-10-24T01:00:33Z",
       "status": "ok",
       "rows": [
         {
@@ -69,13 +69,13 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-23T21:37:39Z",
+      "updatedAt": "2026-10-24T01:00:34Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909852",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "POR -9.5",
           "over_under": 231.5,
           "spread": 9.5,
@@ -92,15 +92,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-23T21:37:40Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-24T01:00:36Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909852",
+          "official_id": "3158844",
+          "full_name": "J.B. DeRosa",
+          "display_name": "J.B. DeRosa",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909852",
+          "official_id": "4237722",
+          "full_name": "Mousa Dagher",
+          "display_name": "Mousa Dagher",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909852",
+          "official_id": "2615777",
+          "full_name": "Michael Smith",
+          "display_name": "Michael Smith",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-23T21:37:41Z",
+      "updatedAt": "2026-10-24T01:00:37Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -108,7 +139,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-23T21:37:42Z",
+      "updatedAt": "2026-10-24T01:00:38Z",
       "status": "ok",
       "rows": [
         {
@@ -1957,7 +1988,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-23T21:37:44Z",
+      "updatedAt": "2026-10-24T01:00:39Z",
       "status": "ok",
       "rows": [
         {
@@ -2255,7 +2286,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-23T21:37:45Z",
+      "updatedAt": "2026-10-24T01:00:40Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2263,7 +2294,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-23T21:37:46Z",
+      "updatedAt": "2026-10-24T01:00:42Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2271,7 +2302,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-23T21:37:47Z",
+      "updatedAt": "2026-10-24T01:00:43Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2279,7 +2310,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-23T21:37:49Z",
+      "updatedAt": "2026-10-24T01:00:44Z",
       "status": "ok",
       "rows": [
         {
@@ -4128,7 +4159,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-23T21:37:50Z",
+      "updatedAt": "2026-10-24T01:00:45Z",
       "status": "ok",
       "rows": [
         {
@@ -4319,6 +4350,23 @@
           "season": 2027
         },
         {
+          "athlete_id": "4709131",
+          "full_name": "Sean Pedulla",
+          "jersey": null,
+          "position_abbrev": "G",
+          "position_name": "Guard",
+          "height": "6' 1\"",
+          "weight": "195 lbs",
+          "age": "24",
+          "birth_date": "2002-10-10T07:00Z",
+          "birth_place": "Edmond OK",
+          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4709131.png",
+          "link_web": "https://www.espn.com/nba/player/_/id/4431679/precious-achiuwa",
+          "status": "active",
+          "team_id": "23",
+          "season": 2027
+        },
+        {
           "athlete_id": "4279318",
           "full_name": "Daeqwon Plowden",
           "jersey": "29",
@@ -4409,7 +4457,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-23T21:37:51Z",
+      "updatedAt": "2026-10-24T01:00:46Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4417,7 +4465,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-23T21:37:52Z",
+      "updatedAt": "2026-10-24T01:00:48Z",
       "status": "empty",
       "rows": [],
       "error": null

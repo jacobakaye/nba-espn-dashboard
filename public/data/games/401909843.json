@@ -19,12 +19,12 @@
       "record": "1-0"
     }
   },
-  "updatedAt": "2026-10-23T21:35:32Z",
+  "updatedAt": "2026-10-24T00:58:27Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-23T21:35:17Z",
+      "updatedAt": "2026-10-24T00:58:13Z",
       "status": "ok",
       "rows": [
         {
@@ -45,16 +45,30 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-23T21:35:19Z",
+      "updatedAt": "2026-10-24T00:58:14Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909843",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "ATL -2.5",
           "over_under": 226.5,
           "spread": 2.5,
+          "home_money_line": null,
+          "away_money_line": null,
+          "home_team_odds_open": null,
+          "home_team_odds_close": null,
+          "away_team_odds_open": null,
+          "away_team_odds_close": null
+        },
+        {
+          "event_id": "401909843",
+          "provider_id": "200",
+          "provider_name": "Draft Kings - Live Odds",
+          "details": "ATL -30.5",
+          "over_under": 210.5,
+          "spread": 30.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -68,15 +82,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-23T21:35:20Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-24T00:58:15Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909843",
+          "official_id": "2616400",
+          "full_name": "Kevin Scott",
+          "display_name": "Kevin Scott",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909843",
+          "official_id": "6856",
+          "full_name": "Eric Lewis",
+          "display_name": "Eric Lewis",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909843",
+          "official_id": "4356656",
+          "full_name": "Pat O'Connell",
+          "display_name": "Pat O'Connell",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-23T21:35:21Z",
+      "updatedAt": "2026-10-24T00:58:16Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -84,7 +129,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-23T21:35:22Z",
+      "updatedAt": "2026-10-24T00:58:18Z",
       "status": "ok",
       "rows": [
         {
@@ -128,7 +173,7 @@
           "venue_city": "Charlotte",
           "venue_state": "NC",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -1933,7 +1978,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-23T21:35:23Z",
+      "updatedAt": "2026-10-24T00:58:19Z",
       "status": "ok",
       "rows": [
         {
@@ -2248,7 +2293,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-23T21:35:25Z",
+      "updatedAt": "2026-10-24T00:58:20Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2256,7 +2301,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-23T21:35:26Z",
+      "updatedAt": "2026-10-24T00:58:21Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2264,7 +2309,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-23T21:35:27Z",
+      "updatedAt": "2026-10-24T00:58:22Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2272,7 +2317,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-23T21:35:28Z",
+      "updatedAt": "2026-10-24T00:58:24Z",
       "status": "ok",
       "rows": [
         {
@@ -2316,7 +2361,7 @@
           "venue_city": "Charlotte",
           "venue_state": "NC",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -4121,7 +4166,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-23T21:35:29Z",
+      "updatedAt": "2026-10-24T00:58:25Z",
       "status": "ok",
       "rows": [
         {
@@ -4419,7 +4464,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-23T21:35:31Z",
+      "updatedAt": "2026-10-24T00:58:26Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4427,7 +4472,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-23T21:35:32Z",
+      "updatedAt": "2026-10-24T00:58:27Z",
       "status": "empty",
       "rows": [],
       "error": null
