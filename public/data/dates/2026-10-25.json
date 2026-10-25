@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T14:31:14Z",
+  "updatedAt": "2026-10-25T21:00:04Z",
   "source": "ESPN via hoopR",
   "games": [
     {
@@ -148,7 +148,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-25T14:31:13Z",
+      "updatedAt": "2026-10-25T21:00:02Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -156,7 +156,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-25T14:31:14Z",
+      "updatedAt": "2026-10-25T21:00:04Z",
       "status": "ok",
       "rows": [
         {
