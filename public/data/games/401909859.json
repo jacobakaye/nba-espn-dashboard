@@ -19,12 +19,12 @@
       "record": "0-1"
     }
   },
-  "updatedAt": "2026-10-24T21:03:22Z",
+  "updatedAt": "2026-10-25T00:31:01Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-24T21:03:07Z",
+      "updatedAt": "2026-10-25T00:30:46Z",
       "status": "ok",
       "rows": [
         {
@@ -69,13 +69,13 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-24T21:03:09Z",
+      "updatedAt": "2026-10-25T00:30:47Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909859",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "DEN -11.5",
           "over_under": 239.5,
           "spread": -11.5,
@@ -92,15 +92,56 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-24T21:03:10Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-25T00:30:49Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909859",
+          "official_id": "2615754",
+          "full_name": "Scott Foster",
+          "display_name": "Scott Foster",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909859",
+          "official_id": "4237528",
+          "full_name": "John Butler",
+          "display_name": "John Butler",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909859",
+          "official_id": "6830",
+          "full_name": "Brian Forte",
+          "display_name": "Brian Forte",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        },
+        {
+          "event_id": "401909859",
+          "official_id": "4879607",
+          "full_name": "Nate Cearley",
+          "display_name": "Nate Cearley",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-24T21:03:11Z",
+      "updatedAt": "2026-10-25T00:30:50Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -108,7 +149,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-24T21:03:12Z",
+      "updatedAt": "2026-10-25T00:30:51Z",
       "status": "ok",
       "rows": [
         {
@@ -1957,7 +1998,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-24T21:03:13Z",
+      "updatedAt": "2026-10-25T00:30:53Z",
       "status": "ok",
       "rows": [
         {
@@ -2272,7 +2313,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-24T21:03:15Z",
+      "updatedAt": "2026-10-25T00:30:54Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2280,7 +2321,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-24T21:03:16Z",
+      "updatedAt": "2026-10-25T00:30:55Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2288,7 +2329,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-24T21:03:17Z",
+      "updatedAt": "2026-10-25T00:30:56Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2296,7 +2337,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-24T21:03:18Z",
+      "updatedAt": "2026-10-25T00:30:58Z",
       "status": "ok",
       "rows": [
         {
@@ -4145,7 +4186,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-24T21:03:19Z",
+      "updatedAt": "2026-10-25T00:30:59Z",
       "status": "ok",
       "rows": [
         {
@@ -4443,7 +4484,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-24T21:03:21Z",
+      "updatedAt": "2026-10-25T00:31:00Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4451,7 +4492,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-24T21:03:22Z",
+      "updatedAt": "2026-10-25T00:31:01Z",
       "status": "empty",
       "rows": [],
       "error": null

@@ -1,25 +1,25 @@
 {
   "date": "2026-10-24",
-  "updatedAt": "2026-10-24T21:01:33Z",
+  "updatedAt": "2026-10-25T00:29:08Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909853",
       "date": "2026-10-24",
       "time": "2026-10-24 18:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "14",
         "name": "Miami Heat",
         "abbreviation": "MIA",
-        "score": "0",
+        "score": "27",
         "record": "0-2"
       },
       "home": {
         "id": "30",
         "name": "Charlotte Hornets",
         "abbreviation": "CHA",
-        "score": "0",
+        "score": "24",
         "record": "1-1"
       }
     },
@@ -168,7 +168,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-24T21:01:32Z",
+      "updatedAt": "2026-10-25T00:29:06Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -176,7 +176,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-24T21:01:33Z",
+      "updatedAt": "2026-10-25T00:29:08Z",
       "status": "ok",
       "rows": [
         {

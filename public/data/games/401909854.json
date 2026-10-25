@@ -19,12 +19,12 @@
       "record": "0-1"
     }
   },
-  "updatedAt": "2026-10-24T21:02:04Z",
+  "updatedAt": "2026-10-25T00:29:42Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-24T21:01:50Z",
+      "updatedAt": "2026-10-25T00:29:28Z",
       "status": "ok",
       "rows": [
         {
@@ -69,16 +69,30 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-24T21:01:51Z",
+      "updatedAt": "2026-10-25T00:29:29Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909854",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "CLE -11.5",
           "over_under": 228.5,
           "spread": -11.5,
+          "home_money_line": null,
+          "away_money_line": null,
+          "home_team_odds_open": null,
+          "home_team_odds_close": null,
+          "away_team_odds_open": null,
+          "away_team_odds_close": null
+        },
+        {
+          "event_id": "401909854",
+          "provider_id": "200",
+          "provider_name": "Draft Kings - Live Odds",
+          "details": "CLE -10.5",
+          "over_under": 227.5,
+          "spread": -10.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -92,15 +106,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-24T21:01:52Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-25T00:29:30Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909854",
+          "official_id": "6854",
+          "full_name": "Courtney Kirkland",
+          "display_name": "Courtney Kirkland",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909854",
+          "official_id": "6826",
+          "full_name": "Eric Dalen",
+          "display_name": "Eric Dalen",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909854",
+          "official_id": "3959376",
+          "full_name": "Suyash Mehta",
+          "display_name": "Suyash Mehta",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-24T21:01:53Z",
+      "updatedAt": "2026-10-25T00:29:31Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -108,7 +153,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-24T21:01:54Z",
+      "updatedAt": "2026-10-25T00:29:32Z",
       "status": "ok",
       "rows": [
         {
@@ -152,7 +197,7 @@
           "venue_city": "Cleveland",
           "venue_state": "OH",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -1957,7 +2002,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-24T21:01:56Z",
+      "updatedAt": "2026-10-25T00:29:34Z",
       "status": "ok",
       "rows": [
         {
@@ -2272,7 +2317,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-24T21:01:57Z",
+      "updatedAt": "2026-10-25T00:29:35Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2280,7 +2325,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-24T21:01:58Z",
+      "updatedAt": "2026-10-25T00:29:36Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2288,7 +2333,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-24T21:01:59Z",
+      "updatedAt": "2026-10-25T00:29:37Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2296,7 +2341,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-24T21:02:01Z",
+      "updatedAt": "2026-10-25T00:29:39Z",
       "status": "ok",
       "rows": [
         {
@@ -2340,7 +2385,7 @@
           "venue_city": "Cleveland",
           "venue_state": "OH",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -4145,7 +4190,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-24T21:02:02Z",
+      "updatedAt": "2026-10-25T00:29:40Z",
       "status": "ok",
       "rows": [
         {
@@ -4392,7 +4437,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-24T21:02:03Z",
+      "updatedAt": "2026-10-25T00:29:41Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4400,7 +4445,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-24T21:02:04Z",
+      "updatedAt": "2026-10-25T00:29:42Z",
       "status": "empty",
       "rows": [],
       "error": null
