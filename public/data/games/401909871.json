@@ -19,12 +19,12 @@
       "record": "0-3"
     }
   },
-  "updatedAt": "2026-10-26T16:56:05Z",
+  "updatedAt": "2026-10-26T22:51:55Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-26T16:55:50Z",
+      "updatedAt": "2026-10-26T22:51:41Z",
       "status": "ok",
       "rows": [
         {
@@ -69,16 +69,16 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-26T16:55:52Z",
+      "updatedAt": "2026-10-26T22:51:42Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909871",
           "provider_id": "100",
           "provider_name": "DraftKings",
-          "details": "MIA -8.5",
+          "details": "MIA -7.5",
           "over_under": 240.5,
-          "spread": -8.5,
+          "spread": -7.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -92,15 +92,56 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-26T16:55:53Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-26T22:51:43Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909871",
+          "official_id": "6876",
+          "full_name": "Josh Tiven",
+          "display_name": "Josh Tiven",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909871",
+          "official_id": "2616400",
+          "full_name": "Kevin Scott",
+          "display_name": "Kevin Scott",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909871",
+          "official_id": "5239699",
+          "full_name": "Chelisa Painter",
+          "display_name": "Chelisa Painter",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        },
+        {
+          "event_id": "401909871",
+          "official_id": "5457337",
+          "full_name": "Chelisa Painter",
+          "display_name": "Chelisa Painter",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-26T16:55:54Z",
+      "updatedAt": "2026-10-26T22:51:45Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -108,7 +149,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-26T16:55:55Z",
+      "updatedAt": "2026-10-26T22:51:46Z",
       "status": "ok",
       "rows": [
         {
@@ -1957,7 +1998,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-26T16:55:56Z",
+      "updatedAt": "2026-10-26T22:51:47Z",
       "status": "ok",
       "rows": [
         {
@@ -2272,7 +2313,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-26T16:55:57Z",
+      "updatedAt": "2026-10-26T22:51:48Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2280,7 +2321,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-26T16:55:59Z",
+      "updatedAt": "2026-10-26T22:51:49Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2288,7 +2329,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-26T16:56:00Z",
+      "updatedAt": "2026-10-26T22:51:51Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2296,7 +2337,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-26T16:56:01Z",
+      "updatedAt": "2026-10-26T22:51:52Z",
       "status": "ok",
       "rows": [
         {
@@ -4145,7 +4186,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-26T16:56:02Z",
+      "updatedAt": "2026-10-26T22:51:53Z",
       "status": "ok",
       "rows": [
         {
@@ -4443,7 +4484,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-26T16:56:03Z",
+      "updatedAt": "2026-10-26T22:51:54Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4451,7 +4492,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-26T16:56:05Z",
+      "updatedAt": "2026-10-26T22:51:55Z",
       "status": "empty",
       "rows": [],
       "error": null

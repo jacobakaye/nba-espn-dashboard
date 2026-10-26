@@ -19,12 +19,12 @@
       "record": "3-0"
     }
   },
-  "updatedAt": "2026-10-26T16:56:51Z",
+  "updatedAt": "2026-10-26T22:52:42Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-26T16:56:36Z",
+      "updatedAt": "2026-10-26T22:52:28Z",
       "status": "ok",
       "rows": [
         {
@@ -45,7 +45,7 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-26T16:56:38Z",
+      "updatedAt": "2026-10-26T22:52:29Z",
       "status": "ok",
       "rows": [
         {
@@ -68,7 +68,7 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-26T16:56:39Z",
+      "updatedAt": "2026-10-26T22:52:30Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -76,7 +76,7 @@
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-26T16:56:40Z",
+      "updatedAt": "2026-10-26T22:52:31Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -84,7 +84,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-26T16:56:41Z",
+      "updatedAt": "2026-10-26T22:52:33Z",
       "status": "ok",
       "rows": [
         {
@@ -207,7 +207,7 @@
           "season": 2027,
           "season_type": null,
           "week": null,
-          "date": "2026-10-29T23:00Z",
+          "date": "2026-10-30T00:00Z",
           "name": "Cleveland Cavaliers at Atlanta Hawks",
           "short_name": "CLE @ ATL",
           "opponent_id": null,
@@ -1933,7 +1933,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-26T16:56:43Z",
+      "updatedAt": "2026-10-26T22:52:34Z",
       "status": "ok",
       "rows": [
         {
@@ -2248,7 +2248,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-26T16:56:44Z",
+      "updatedAt": "2026-10-26T22:52:35Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2256,7 +2256,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-26T16:56:45Z",
+      "updatedAt": "2026-10-26T22:52:36Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2264,7 +2264,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-26T16:56:46Z",
+      "updatedAt": "2026-10-26T22:52:37Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2272,7 +2272,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-26T16:56:47Z",
+      "updatedAt": "2026-10-26T22:52:39Z",
       "status": "ok",
       "rows": [
         {
@@ -4121,7 +4121,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-26T16:56:48Z",
+      "updatedAt": "2026-10-26T22:52:40Z",
       "status": "ok",
       "rows": [
         {
@@ -4419,7 +4419,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-26T16:56:50Z",
+      "updatedAt": "2026-10-26T22:52:41Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4427,7 +4427,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-26T16:56:51Z",
+      "updatedAt": "2026-10-26T22:52:42Z",
       "status": "empty",
       "rows": [],
       "error": null

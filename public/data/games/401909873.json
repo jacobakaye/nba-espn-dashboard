@@ -19,12 +19,12 @@
       "record": "3-0"
     }
   },
-  "updatedAt": "2026-10-26T16:56:35Z",
+  "updatedAt": "2026-10-26T22:52:26Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-26T16:56:21Z",
+      "updatedAt": "2026-10-26T22:52:12Z",
       "status": "ok",
       "rows": [
         {
@@ -93,16 +93,16 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-26T16:56:22Z",
+      "updatedAt": "2026-10-26T22:52:13Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909873",
           "provider_id": "100",
           "provider_name": "DraftKings",
-          "details": "OKC -10.5",
-          "over_under": 220.5,
-          "spread": -10.5,
+          "details": "OKC -8.5",
+          "over_under": 221.5,
+          "spread": -8.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -116,7 +116,7 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-26T16:56:23Z",
+      "updatedAt": "2026-10-26T22:52:14Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -124,7 +124,7 @@
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-26T16:56:24Z",
+      "updatedAt": "2026-10-26T22:52:16Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -132,7 +132,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-26T16:56:26Z",
+      "updatedAt": "2026-10-26T22:52:17Z",
       "status": "ok",
       "rows": [
         {
@@ -1981,7 +1981,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-26T16:56:27Z",
+      "updatedAt": "2026-10-26T22:52:18Z",
       "status": "ok",
       "rows": [
         {
@@ -2242,7 +2242,7 @@
         {
           "athlete_id": "4431695",
           "full_name": "Drew Timme",
-          "jersey": null,
+          "jersey": "17",
           "position_abbrev": "F",
           "position_name": "Forward",
           "height": "6' 10\"",
@@ -2279,7 +2279,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-26T16:56:28Z",
+      "updatedAt": "2026-10-26T22:52:19Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2287,7 +2287,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-26T16:56:29Z",
+      "updatedAt": "2026-10-26T22:52:20Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2295,7 +2295,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-26T16:56:30Z",
+      "updatedAt": "2026-10-26T22:52:22Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2303,7 +2303,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-26T16:56:32Z",
+      "updatedAt": "2026-10-26T22:52:23Z",
       "status": "ok",
       "rows": [
         {
@@ -4152,7 +4152,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-26T16:56:33Z",
+      "updatedAt": "2026-10-26T22:52:24Z",
       "status": "ok",
       "rows": [
         {
@@ -4467,7 +4467,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-26T16:56:34Z",
+      "updatedAt": "2026-10-26T22:52:25Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4475,7 +4475,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-26T16:56:35Z",
+      "updatedAt": "2026-10-26T22:52:26Z",
       "status": "empty",
       "rows": [],
       "error": null
