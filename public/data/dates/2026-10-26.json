@@ -1,0 +1,585 @@
+{
+  "date": "2026-10-26",
+  "updatedAt": "2026-10-26T16:55:03Z",
+  "source": "ESPN via hoopR",
+  "games": [
+    {
+      "id": "401909868",
+      "date": "2026-10-26",
+      "time": "2026-10-26 19:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "27",
+        "name": "Washington Wizards",
+        "abbreviation": "WSH",
+        "score": "0",
+        "record": "2-1"
+      },
+      "home": {
+        "id": "30",
+        "name": "Charlotte Hornets",
+        "abbreviation": "CHA",
+        "score": "0",
+        "record": "2-1"
+      }
+    },
+    {
+      "id": "401909869",
+      "date": "2026-10-26",
+      "time": "2026-10-26 19:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "16",
+        "name": "Minnesota Timberwolves",
+        "abbreviation": "MIN",
+        "score": "0",
+        "record": "3-0"
+      },
+      "home": {
+        "id": "5",
+        "name": "Cleveland Cavaliers",
+        "abbreviation": "CLE",
+        "score": "0",
+        "record": "1-1"
+      }
+    },
+    {
+      "id": "401909870",
+      "date": "2026-10-26",
+      "time": "2026-10-26 19:30:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "4",
+        "name": "Chicago Bulls",
+        "abbreviation": "CHI",
+        "score": "0",
+        "record": "1-2"
+      },
+      "home": {
+        "id": "2",
+        "name": "Boston Celtics",
+        "abbreviation": "BOS",
+        "score": "0",
+        "record": "1-1"
+      }
+    },
+    {
+      "id": "401909871",
+      "date": "2026-10-26",
+      "time": "2026-10-26 19:30:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "6",
+        "name": "Dallas Mavericks",
+        "abbreviation": "DAL",
+        "score": "0",
+        "record": "1-2"
+      },
+      "home": {
+        "id": "14",
+        "name": "Miami Heat",
+        "abbreviation": "MIA",
+        "score": "0",
+        "record": "0-3"
+      }
+    },
+    {
+      "id": "401909872",
+      "date": "2026-10-26",
+      "time": "2026-10-26 20:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "11",
+        "name": "Indiana Pacers",
+        "abbreviation": "IND",
+        "score": "0",
+        "record": "2-1"
+      },
+      "home": {
+        "id": "15",
+        "name": "Milwaukee Bucks",
+        "abbreviation": "MIL",
+        "score": "0",
+        "record": "0-3"
+      }
+    },
+    {
+      "id": "401909873",
+      "date": "2026-10-26",
+      "time": "2026-10-26 20:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "21",
+        "name": "Phoenix Suns",
+        "abbreviation": "PHX",
+        "score": "0",
+        "record": "1-1"
+      },
+      "home": {
+        "id": "25",
+        "name": "Oklahoma City Thunder",
+        "abbreviation": "OKC",
+        "score": "0",
+        "record": "3-0"
+      }
+    },
+    {
+      "id": "401909874",
+      "date": "2026-10-26",
+      "time": "2026-10-26 20:30:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "1",
+        "name": "Atlanta Hawks",
+        "abbreviation": "ATL",
+        "score": "0",
+        "record": "2-1"
+      },
+      "home": {
+        "id": "10",
+        "name": "Houston Rockets",
+        "abbreviation": "HOU",
+        "score": "0",
+        "record": "3-0"
+      }
+    },
+    {
+      "id": "401909875",
+      "date": "2026-10-26",
+      "time": "2026-10-26 21:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "29",
+        "name": "Memphis Grizzlies",
+        "abbreviation": "MEM",
+        "score": "0",
+        "record": "3-0"
+      },
+      "home": {
+        "id": "26",
+        "name": "Utah Jazz",
+        "abbreviation": "UTAH",
+        "score": "0",
+        "record": "1-2"
+      }
+    },
+    {
+      "id": "401909876",
+      "date": "2026-10-26",
+      "time": "2026-10-26 22:00:00",
+      "status": "STATUS_SCHEDULED",
+      "away": {
+        "id": "9",
+        "name": "Golden State Warriors",
+        "abbreviation": "GS",
+        "score": "0",
+        "record": "0-3"
+      },
+      "home": {
+        "id": "7",
+        "name": "Denver Nuggets",
+        "abbreviation": "DEN",
+        "score": "0",
+        "record": "1-1"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "label": "League standings",
+      "function": "espn_nba_standings",
+      "updatedAt": "2026-10-26T16:55:02Z",
+      "status": "error",
+      "rows": [],
+      "error": "argument \"year\" is missing, with no default"
+    },
+    {
+      "label": "NBA injuries",
+      "function": "espn_nba_injuries",
+      "updatedAt": "2026-10-26T16:55:03Z",
+      "status": "ok",
+      "rows": [
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        }
+      ],
+      "error": null
+    }
+  ],
+  "errors": []
+}
