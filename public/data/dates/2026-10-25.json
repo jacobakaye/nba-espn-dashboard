@@ -1,45 +1,45 @@
 {
   "date": "2026-10-25",
-  "updatedAt": "2026-10-25T21:00:04Z",
+  "updatedAt": "2026-10-26T00:30:35Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909861",
       "date": "2026-10-25",
       "time": "2026-10-25 17:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FINAL",
       "away": {
         "id": "13",
         "name": "Los Angeles Lakers",
         "abbreviation": "LAL",
-        "score": "0",
-        "record": "2-0"
+        "score": "132",
+        "record": "3-0"
       },
       "home": {
         "id": "26",
         "name": "Utah Jazz",
         "abbreviation": "UTAH",
-        "score": "0",
-        "record": "1-1"
+        "score": "123",
+        "record": "1-2"
       }
     },
     {
       "id": "401909862",
       "date": "2026-10-25",
       "time": "2026-10-25 18:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "11",
         "name": "Indiana Pacers",
         "abbreviation": "IND",
-        "score": "0",
+        "score": "131",
         "record": "1-1"
       },
       "home": {
         "id": "17",
         "name": "Brooklyn Nets",
         "abbreviation": "BKN",
-        "score": "0",
+        "score": "106",
         "record": "0-2"
       }
     },
@@ -47,19 +47,19 @@
       "id": "401909863",
       "date": "2026-10-25",
       "time": "2026-10-25 19:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "19",
         "name": "Orlando Magic",
         "abbreviation": "ORL",
-        "score": "0",
+        "score": "53",
         "record": "0-2"
       },
       "home": {
         "id": "18",
         "name": "New York Knicks",
         "abbreviation": "NY",
-        "score": "0",
+        "score": "61",
         "record": "0-2"
       }
     },
@@ -67,19 +67,19 @@
       "id": "401909864",
       "date": "2026-10-25",
       "time": "2026-10-25 19:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "28",
         "name": "Toronto Raptors",
         "abbreviation": "TOR",
-        "score": "0",
+        "score": "50",
         "record": "2-0"
       },
       "home": {
         "id": "16",
         "name": "Minnesota Timberwolves",
         "abbreviation": "MIN",
-        "score": "0",
+        "score": "57",
         "record": "2-0"
       }
     },
@@ -87,19 +87,19 @@
       "id": "401909865",
       "date": "2026-10-25",
       "time": "2026-10-25 19:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "12",
         "name": "LA Clippers",
         "abbreviation": "LAC",
-        "score": "0",
+        "score": "64",
         "record": "1-1"
       },
       "home": {
         "id": "25",
         "name": "Oklahoma City Thunder",
         "abbreviation": "OKC",
-        "score": "0",
+        "score": "57",
         "record": "2-0"
       }
     },
@@ -107,19 +107,19 @@
       "id": "401909866",
       "date": "2026-10-25",
       "time": "2026-10-25 19:30:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "8",
         "name": "Detroit Pistons",
         "abbreviation": "DET",
-        "score": "0",
+        "score": "39",
         "record": "2-0"
       },
       "home": {
         "id": "20",
         "name": "Philadelphia 76ers",
         "abbreviation": "PHI",
-        "score": "0",
+        "score": "29",
         "record": "3-0"
       }
     },
@@ -148,7 +148,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-25T21:00:02Z",
+      "updatedAt": "2026-10-26T00:30:33Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -156,7 +156,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-25T21:00:04Z",
+      "updatedAt": "2026-10-26T00:30:35Z",
       "status": "ok",
       "rows": [
         {
