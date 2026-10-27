@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T15:59:08Z",
+  "updatedAt": "2026-10-27T22:26:49Z",
   "source": "ESPN via hoopR",
   "games": [
     {
@@ -88,7 +88,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-27T15:59:06Z",
+      "updatedAt": "2026-10-27T22:26:48Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -96,9 +96,23 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-27T15:59:08Z",
+      "updatedAt": "2026-10-27T22:26:49Z",
       "status": "ok",
       "rows": [
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
         {
           "team_id": null,
           "athlete_id": null,
