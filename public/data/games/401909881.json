@@ -19,12 +19,12 @@
       "record": "2-2"
     }
   },
-  "updatedAt": "2026-10-28T16:48:01Z",
+  "updatedAt": "2026-10-28T22:47:15Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-28T16:47:47Z",
+      "updatedAt": "2026-10-28T22:47:00Z",
       "status": "ok",
       "rows": [
         {
@@ -45,16 +45,16 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-28T16:47:48Z",
+      "updatedAt": "2026-10-28T22:47:01Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909881",
           "provider_id": "100",
-          "provider_name": "DraftKings",
-          "details": "ATL -1.5",
-          "over_under": 241.5,
-          "spread": -1.5,
+          "provider_name": "Draft Kings",
+          "details": "ATL -2.5",
+          "over_under": 242.5,
+          "spread": -2.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -68,15 +68,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-28T16:47:49Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-28T22:47:02Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909881",
+          "official_id": "2616432",
+          "full_name": "Ben Taylor",
+          "display_name": "Ben Taylor",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909881",
+          "official_id": "3158844",
+          "full_name": "J.B. DeRosa",
+          "display_name": "J.B. DeRosa",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909881",
+          "official_id": "4237681",
+          "full_name": "Brandon Schwab",
+          "display_name": "Brandon Schwab",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-28T16:47:50Z",
+      "updatedAt": "2026-10-28T22:47:03Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -84,7 +115,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-28T16:47:52Z",
+      "updatedAt": "2026-10-28T22:47:05Z",
       "status": "ok",
       "rows": [
         {
@@ -1933,7 +1964,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-28T16:47:53Z",
+      "updatedAt": "2026-10-28T22:47:06Z",
       "status": "ok",
       "rows": [
         {
@@ -2231,7 +2262,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-28T16:47:54Z",
+      "updatedAt": "2026-10-28T22:47:08Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2239,7 +2270,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-28T16:47:55Z",
+      "updatedAt": "2026-10-28T22:47:09Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2247,7 +2278,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-28T16:47:56Z",
+      "updatedAt": "2026-10-28T22:47:10Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2255,7 +2286,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-28T16:47:58Z",
+      "updatedAt": "2026-10-28T22:47:11Z",
       "status": "ok",
       "rows": [
         {
@@ -4104,7 +4135,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-28T16:47:59Z",
+      "updatedAt": "2026-10-28T22:47:13Z",
       "status": "ok",
       "rows": [
         {
@@ -4419,7 +4450,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-28T16:48:00Z",
+      "updatedAt": "2026-10-28T22:47:14Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4427,7 +4458,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-28T16:48:01Z",
+      "updatedAt": "2026-10-28T22:47:15Z",
       "status": "empty",
       "rows": [],
       "error": null
