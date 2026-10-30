@@ -19,12 +19,12 @@
       "record": "4-1"
     }
   },
-  "updatedAt": "2026-10-30T16:52:54Z",
+  "updatedAt": "2026-10-30T22:34:45Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-30T16:52:40Z",
+      "updatedAt": "2026-10-30T22:34:30Z",
       "status": "ok",
       "rows": [
         {
@@ -45,16 +45,16 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-30T16:52:41Z",
+      "updatedAt": "2026-10-30T22:34:32Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909280",
           "provider_id": "100",
           "provider_name": "Draft Kings",
-          "details": "NY -1.5",
-          "over_under": 226.5,
-          "spread": 1.5,
+          "details": "NY -3.5",
+          "over_under": 225.5,
+          "spread": 3.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -68,15 +68,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-30T16:52:42Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-10-30T22:34:33Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909280",
+          "official_id": "2616400",
+          "full_name": "Kevin Scott",
+          "display_name": "Kevin Scott",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909280",
+          "official_id": "6851",
+          "full_name": "Bill Kennedy",
+          "display_name": "Bill Kennedy",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909280",
+          "official_id": "3952179",
+          "full_name": "Simone Jelks",
+          "display_name": "Simone Jelks",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-30T16:52:43Z",
+      "updatedAt": "2026-10-30T22:34:34Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -84,7 +115,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-30T16:52:44Z",
+      "updatedAt": "2026-10-30T22:34:35Z",
       "status": "ok",
       "rows": [
         {
@@ -1933,7 +1964,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-30T16:52:46Z",
+      "updatedAt": "2026-10-30T22:34:36Z",
       "status": "ok",
       "rows": [
         {
@@ -2231,7 +2262,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-30T16:52:47Z",
+      "updatedAt": "2026-10-30T22:34:38Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2239,7 +2270,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-30T16:52:48Z",
+      "updatedAt": "2026-10-30T22:34:39Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2247,7 +2278,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-30T16:52:49Z",
+      "updatedAt": "2026-10-30T22:34:40Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2255,7 +2286,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-30T16:52:51Z",
+      "updatedAt": "2026-10-30T22:34:41Z",
       "status": "ok",
       "rows": [
         {
@@ -4104,7 +4135,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-30T16:52:52Z",
+      "updatedAt": "2026-10-30T22:34:42Z",
       "status": "ok",
       "rows": [
         {
@@ -4402,7 +4433,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-30T16:52:53Z",
+      "updatedAt": "2026-10-30T22:34:44Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4410,7 +4441,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-30T16:52:54Z",
+      "updatedAt": "2026-10-30T22:34:45Z",
       "status": "empty",
       "rows": [],
       "error": null
