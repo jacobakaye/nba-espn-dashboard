@@ -1,26 +1,26 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T15:52:49Z",
+  "updatedAt": "2026-10-31T21:48:21Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909896",
       "date": "2026-10-31",
       "time": "2026-10-31 15:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FINAL",
       "away": {
         "id": "22",
         "name": "Portland Trail Blazers",
         "abbreviation": "POR",
-        "score": "0",
-        "record": "3-1"
+        "score": "112",
+        "record": "4-1"
       },
       "home": {
         "id": "26",
         "name": "Utah Jazz",
         "abbreviation": "UTAH",
-        "score": "0",
-        "record": "1-4"
+        "score": "90",
+        "record": "1-5"
       }
     },
     {
@@ -148,7 +148,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-31T15:52:48Z",
+      "updatedAt": "2026-10-31T21:48:20Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -156,7 +156,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-31T15:52:49Z",
+      "updatedAt": "2026-10-31T21:48:21Z",
       "status": "ok",
       "rows": [
         {

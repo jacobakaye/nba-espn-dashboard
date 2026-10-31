@@ -19,12 +19,12 @@
       "record": "5-1"
     }
   },
-  "updatedAt": "2026-10-31T15:54:39Z",
+  "updatedAt": "2026-10-31T21:50:15Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-31T15:54:24Z",
+      "updatedAt": "2026-10-31T21:50:01Z",
       "status": "ok",
       "rows": [
         {
@@ -57,7 +57,7 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-31T15:54:25Z",
+      "updatedAt": "2026-10-31T21:50:02Z",
       "status": "ok",
       "rows": [
         {
@@ -65,7 +65,7 @@
           "provider_id": "100",
           "provider_name": "DraftKings",
           "details": "HOU -2.5",
-          "over_under": 218.5,
+          "over_under": 219.5,
           "spread": -2.5,
           "home_money_line": null,
           "away_money_line": null,
@@ -80,7 +80,7 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-31T15:54:26Z",
+      "updatedAt": "2026-10-31T21:50:03Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -88,7 +88,7 @@
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-31T15:54:28Z",
+      "updatedAt": "2026-10-31T21:50:04Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -96,7 +96,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-31T15:54:29Z",
+      "updatedAt": "2026-10-31T21:50:05Z",
       "status": "ok",
       "rows": [
         {
@@ -1945,26 +1945,9 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-31T15:54:30Z",
+      "updatedAt": "2026-10-31T21:50:07Z",
       "status": "ok",
       "rows": [
-        {
-          "athlete_id": "4397018",
-          "full_name": "Ochai Agbaji",
-          "jersey": "30",
-          "position_abbrev": "G",
-          "position_name": "Guard",
-          "height": "6' 5\"",
-          "weight": "215 lbs",
-          "age": "26",
-          "birth_date": "2000-04-20T07:00Z",
-          "birth_place": "Kansas City MO",
-          "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4397018.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
-          "status": "active",
-          "team_id": "25",
-          "season": 2027
-        },
         {
           "athlete_id": "4684208",
           "full_name": "Brooks Barnhizer",
@@ -1977,7 +1960,7 @@
           "birth_date": "2002-03-02T08:00Z",
           "birth_place": "Lafayette IN",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4684208.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -1994,7 +1977,7 @@
           "birth_date": "1994-02-28T08:00Z",
           "birth_place": "College Station TX",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/2991350.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2011,7 +1994,7 @@
           "birth_date": "2004-06-29T07:00Z",
           "birth_place": "Council Bluffs IA",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5105800.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2028,7 +2011,7 @@
           "birth_date": "1998-07-12T07:00Z",
           "birth_place": "Toronto ON",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4278073.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2045,7 +2028,7 @@
           "birth_date": "1998-05-05T07:00Z",
           "birth_place": "Eugene OR",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4222252.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2062,7 +2045,7 @@
           "birth_date": "2002-05-01T07:00Z",
           "birth_place": "Minneapolis MN",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4433255.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2079,7 +2062,7 @@
           "birth_date": "2005-04-07T07:00Z",
           "birth_place": "Zaragoza NA",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5174983.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2096,7 +2079,7 @@
           "birth_date": "2004-02-20T08:00Z",
           "birth_place": "Sacramento CA",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683778.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2113,7 +2096,7 @@
           "birth_date": "2002-06-25T07:00Z",
           "birth_place": "Liege NA",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4900671.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2130,7 +2113,7 @@
           "birth_date": "2001-07-16T07:00Z",
           "birth_place": "Cibolo TX",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432185.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2147,7 +2130,7 @@
           "birth_date": "2005-12-25T08:00Z",
           "birth_place": "Trenton NJ",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5061603.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2164,7 +2147,7 @@
           "birth_date": "2003-10-03T07:00Z",
           "birth_place": "Liberty MO",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5241364.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2181,7 +2164,7 @@
           "birth_date": "2005-08-10T07:00Z",
           "birth_place": "NA NA",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/5159925.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2198,7 +2181,7 @@
           "birth_date": "2003-11-07T08:00Z",
           "birth_place": "Dallas TX",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4683692.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2215,7 +2198,7 @@
           "birth_date": "2001-04-14T07:00Z",
           "birth_place": "Gilbert AZ",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4593803.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2232,7 +2215,7 @@
           "birth_date": "2002-06-29T07:00Z",
           "birth_place": "Fort Smith AR",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/4432823.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2249,7 +2232,7 @@
           "birth_date": "1994-12-02T08:00Z",
           "birth_place": "Waco TX",
           "headshot": "https://a.espncdn.com/i/headshots/nba/players/full/3133626.png",
-          "link_web": "https://www.espn.com/nba/player/_/id/4397018/ochai-agbaji",
+          "link_web": "https://www.espn.com/nba/player/_/id/4684208/brooks-barnhizer",
           "status": "active",
           "team_id": "25",
           "season": 2027
@@ -2260,7 +2243,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-31T15:54:31Z",
+      "updatedAt": "2026-10-31T21:50:08Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2268,7 +2251,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-31T15:54:33Z",
+      "updatedAt": "2026-10-31T21:50:09Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2276,7 +2259,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-31T15:54:34Z",
+      "updatedAt": "2026-10-31T21:50:10Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2284,7 +2267,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-31T15:54:35Z",
+      "updatedAt": "2026-10-31T21:50:12Z",
       "status": "ok",
       "rows": [
         {
@@ -4133,7 +4116,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-31T15:54:36Z",
+      "updatedAt": "2026-10-31T21:50:13Z",
       "status": "ok",
       "rows": [
         {
@@ -4431,7 +4414,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-31T15:54:38Z",
+      "updatedAt": "2026-10-31T21:50:14Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4439,7 +4422,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-31T15:54:39Z",
+      "updatedAt": "2026-10-31T21:50:15Z",
       "status": "empty",
       "rows": [],
       "error": null
