@@ -19,12 +19,12 @@
       "record": "2-4"
     }
   },
-  "updatedAt": "2026-11-01T16:56:54Z",
+  "updatedAt": "2026-11-01T22:13:48Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-11-01T16:56:40Z",
+      "updatedAt": "2026-11-01T22:13:34Z",
       "status": "ok",
       "rows": [
         {
@@ -69,7 +69,7 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-11-01T16:56:41Z",
+      "updatedAt": "2026-11-01T22:13:35Z",
       "status": "ok",
       "rows": [
         {
@@ -77,7 +77,7 @@
           "provider_id": "100",
           "provider_name": "Draft Kings",
           "details": "IND -3.5",
-          "over_under": 231.5,
+          "over_under": 230.5,
           "spread": -3.5,
           "home_money_line": null,
           "away_money_line": null,
@@ -92,15 +92,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-11-01T16:56:42Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-11-01T22:13:36Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909904",
+          "official_id": "6851",
+          "full_name": "Bill Kennedy",
+          "display_name": "Bill Kennedy",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909904",
+          "official_id": "4237943",
+          "full_name": "Robert Hussey",
+          "display_name": "Robert Hussey",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909904",
+          "official_id": "2616593",
+          "full_name": "Matt Myers",
+          "display_name": "Matt Myers",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-11-01T16:56:43Z",
+      "updatedAt": "2026-11-01T22:13:37Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -108,7 +139,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-11-01T16:56:45Z",
+      "updatedAt": "2026-11-01T22:13:39Z",
       "status": "ok",
       "rows": [
         {
@@ -244,7 +275,7 @@
           "venue_city": "Indianapolis",
           "venue_state": "IN",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -1957,7 +1988,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-11-01T16:56:46Z",
+      "updatedAt": "2026-11-01T22:13:40Z",
       "status": "ok",
       "rows": [
         {
@@ -2272,7 +2303,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-11-01T16:56:47Z",
+      "updatedAt": "2026-11-01T22:13:41Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2280,7 +2311,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-11-01T16:56:48Z",
+      "updatedAt": "2026-11-01T22:13:42Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2288,7 +2319,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-11-01T16:56:49Z",
+      "updatedAt": "2026-11-01T22:13:43Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2296,7 +2327,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-11-01T16:56:51Z",
+      "updatedAt": "2026-11-01T22:13:45Z",
       "status": "ok",
       "rows": [
         {
@@ -2455,7 +2486,7 @@
           "venue_city": "Indianapolis",
           "venue_state": "IN",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -4145,7 +4176,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-11-01T16:56:52Z",
+      "updatedAt": "2026-11-01T22:13:46Z",
       "status": "ok",
       "rows": [
         {
@@ -4443,7 +4474,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-11-01T16:56:53Z",
+      "updatedAt": "2026-11-01T22:13:47Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4451,7 +4482,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-11-01T16:56:54Z",
+      "updatedAt": "2026-11-01T22:13:48Z",
       "status": "empty",
       "rows": [],
       "error": null
