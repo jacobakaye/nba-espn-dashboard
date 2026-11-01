@@ -19,12 +19,12 @@
       "record": "1-5"
     }
   },
-  "updatedAt": "2026-10-31T21:48:40Z",
+  "updatedAt": "2026-11-01T01:33:29Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-31T21:48:22Z",
+      "updatedAt": "2026-11-01T01:33:11Z",
       "status": "ok",
       "rows": [
         {
@@ -93,13 +93,13 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-31T21:48:24Z",
+      "updatedAt": "2026-11-01T01:33:12Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909896",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "POR -6.5",
           "over_under": 232.5,
           "spread": 6.5,
@@ -116,7 +116,7 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-31T21:48:25Z",
+      "updatedAt": "2026-11-01T01:33:13Z",
       "status": "ok",
       "rows": [
         {
@@ -155,7 +155,7 @@
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-31T21:48:26Z",
+      "updatedAt": "2026-11-01T01:33:14Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -163,7 +163,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-31T21:48:27Z",
+      "updatedAt": "2026-11-01T01:33:16Z",
       "status": "ok",
       "rows": [
         {
@@ -2012,7 +2012,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-31T21:48:28Z",
+      "updatedAt": "2026-11-01T01:33:17Z",
       "status": "ok",
       "rows": [
         {
@@ -2310,7 +2310,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-31T21:48:30Z",
+      "updatedAt": "2026-11-01T01:33:18Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2318,7 +2318,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-31T21:48:31Z",
+      "updatedAt": "2026-11-01T01:33:19Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2326,7 +2326,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-31T21:48:32Z",
+      "updatedAt": "2026-11-01T01:33:21Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2334,7 +2334,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-31T21:48:33Z",
+      "updatedAt": "2026-11-01T01:33:22Z",
       "status": "ok",
       "rows": [
         {
@@ -4183,7 +4183,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-31T21:48:35Z",
+      "updatedAt": "2026-11-01T01:33:23Z",
       "status": "ok",
       "rows": [
         {
@@ -4498,7 +4498,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-31T21:48:36Z",
+      "updatedAt": "2026-11-01T01:33:24Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4506,7 +4506,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-31T21:48:37Z",
+      "updatedAt": "2026-11-01T01:33:26Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4514,7 +4514,7 @@
     {
       "label": "Player box score",
       "function": "espn_nba_player_box",
-      "updatedAt": "2026-10-31T21:48:39Z",
+      "updatedAt": "2026-11-01T01:33:27Z",
       "status": "ok",
       "rows": [
         {
@@ -5998,65 +5998,6 @@
           "season_type": 2,
           "game_date": "2026-10-31",
           "game_date_time": "2026-10-31T15:00:00",
-          "athlete_id": 4396963,
-          "athlete_display_name": "Blake Hinson",
-          "team_id": 26,
-          "team_name": "Jazz",
-          "team_location": "Utah",
-          "team_short_display_name": "Jazz",
-          "minutes": null,
-          "field_goals_made": null,
-          "field_goals_attempted": null,
-          "three_point_field_goals_made": null,
-          "three_point_field_goals_attempted": null,
-          "free_throws_made": null,
-          "free_throws_attempted": null,
-          "offensive_rebounds": null,
-          "defensive_rebounds": null,
-          "rebounds": null,
-          "assists": null,
-          "steals": null,
-          "blocks": null,
-          "turnovers": null,
-          "fouls": null,
-          "plus_minus": null,
-          "points": null,
-          "starter": false,
-          "ejected": false,
-          "did_not_play": true,
-          "reason": "COACH'S DECISION",
-          "active": false,
-          "athlete_jersey": "25",
-          "athlete_short_name": "B. Hinson",
-          "athlete_headshot_href": "https://a.espncdn.com/i/headshots/nba/players/full/4396963.png",
-          "athlete_position_name": "Forward",
-          "athlete_position_abbreviation": "F",
-          "team_display_name": "Utah Jazz",
-          "team_uid": "s:40~l:46~t:26",
-          "team_slug": "utah-jazz",
-          "team_logo": "https://a.espncdn.com/i/teamlogos/nba/500/utah.png",
-          "team_abbreviation": "UTAH",
-          "team_color": "4e008e",
-          "team_alternate_color": "79a3dc",
-          "home_away": "home",
-          "team_winner": false,
-          "team_score": 90,
-          "opponent_team_id": 22,
-          "opponent_team_name": "Trail Blazers",
-          "opponent_team_location": "Portland",
-          "opponent_team_display_name": "Portland Trail Blazers",
-          "opponent_team_abbreviation": "POR",
-          "opponent_team_logo": "https://a.espncdn.com/i/teamlogos/nba/500/por.png",
-          "opponent_team_color": "e03a3e",
-          "opponent_team_alternate_color": "000000",
-          "opponent_team_score": 112
-        },
-        {
-          "game_id": 401909896,
-          "season": 2027,
-          "season_type": 2,
-          "game_date": "2026-10-31",
-          "game_date_time": "2026-10-31T15:00:00",
           "athlete_id": 4065673,
           "athlete_display_name": "Tony Bradley",
           "team_id": 26,
@@ -6116,7 +6057,7 @@
     {
       "label": "Team box score",
       "function": "espn_nba_team_box",
-      "updatedAt": "2026-10-31T21:48:40Z",
+      "updatedAt": "2026-11-01T01:33:28Z",
       "status": "ok",
       "rows": [
         {

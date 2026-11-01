@@ -19,12 +19,12 @@
       "record": "3-2"
     }
   },
-  "updatedAt": "2026-10-31T21:49:59Z",
+  "updatedAt": "2026-11-01T01:34:51Z",
   "sections": [
     {
       "label": "Game broadcasts",
       "function": "espn_nba_game_broadcasts",
-      "updatedAt": "2026-10-31T21:49:45Z",
+      "updatedAt": "2026-11-01T01:34:36Z",
       "status": "ok",
       "rows": [
         {
@@ -69,16 +69,30 @@
     {
       "label": "Game odds",
       "function": "espn_nba_game_odds",
-      "updatedAt": "2026-10-31T21:49:46Z",
+      "updatedAt": "2026-11-01T01:34:37Z",
       "status": "ok",
       "rows": [
         {
           "event_id": "401909901",
           "provider_id": "100",
-          "provider_name": "DraftKings",
+          "provider_name": "Draft Kings",
           "details": "SA -12.5",
-          "over_under": 228.5,
+          "over_under": 230.5,
           "spread": -12.5,
+          "home_money_line": null,
+          "away_money_line": null,
+          "home_team_odds_open": null,
+          "home_team_odds_close": null,
+          "away_team_odds_open": null,
+          "away_team_odds_close": null
+        },
+        {
+          "event_id": "401909901",
+          "provider_id": "200",
+          "provider_name": "Draft Kings - Live Odds",
+          "details": "SA -7.5",
+          "over_under": 236.5,
+          "spread": -7.5,
           "home_money_line": null,
           "away_money_line": null,
           "home_team_odds_open": null,
@@ -92,15 +106,46 @@
     {
       "label": "Game officials",
       "function": "espn_nba_game_officials",
-      "updatedAt": "2026-10-31T21:49:47Z",
-      "status": "empty",
-      "rows": [],
+      "updatedAt": "2026-11-01T01:34:39Z",
+      "status": "ok",
+      "rows": [
+        {
+          "event_id": "401909901",
+          "official_id": "6854",
+          "full_name": "Courtney Kirkland",
+          "display_name": "Courtney Kirkland",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 1
+        },
+        {
+          "event_id": "401909901",
+          "official_id": "3944863",
+          "full_name": "Ray Acosta",
+          "display_name": "Ray Acosta",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 2
+        },
+        {
+          "event_id": "401909901",
+          "official_id": "4237561",
+          "full_name": "Matt Kallio",
+          "display_name": "Matt Kallio",
+          "position_id": "40",
+          "position_name": "Referee",
+          "position_type": null,
+          "order": 3
+        }
+      ],
       "error": null
     },
     {
       "label": "Away Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-31T21:49:48Z",
+      "updatedAt": "2026-11-01T01:34:40Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -108,7 +153,7 @@
     {
       "label": "Away Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-31T21:49:49Z",
+      "updatedAt": "2026-11-01T01:34:41Z",
       "status": "ok",
       "rows": [
         {
@@ -267,7 +312,7 @@
           "venue_city": "San Antonio",
           "venue_state": "TX",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -1957,7 +2002,7 @@
     {
       "label": "Away Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-31T21:49:51Z",
+      "updatedAt": "2026-11-01T01:34:42Z",
       "status": "ok",
       "rows": [
         {
@@ -2255,7 +2300,7 @@
     {
       "label": "Away Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-31T21:49:52Z",
+      "updatedAt": "2026-11-01T01:34:44Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2263,7 +2308,7 @@
     {
       "label": "Away Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-31T21:49:53Z",
+      "updatedAt": "2026-11-01T01:34:45Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -2271,7 +2316,7 @@
     {
       "label": "Home Team statistics",
       "function": "espn_nba_team_stats",
-      "updatedAt": "2026-10-31T21:49:54Z",
+      "updatedAt": "2026-11-01T01:34:46Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -2279,7 +2324,7 @@
     {
       "label": "Home Team schedule",
       "function": "espn_nba_team_schedule",
-      "updatedAt": "2026-10-31T21:49:56Z",
+      "updatedAt": "2026-11-01T01:34:47Z",
       "status": "ok",
       "rows": [
         {
@@ -2415,7 +2460,7 @@
           "venue_city": "San Antonio",
           "venue_state": "TX",
           "broadcast": null,
-          "result": "Scheduled",
+          "result": "In Progress",
           "team_score": null,
           "opponent_score": null,
           "winner": null
@@ -4128,7 +4173,7 @@
     {
       "label": "Home Team roster",
       "function": "espn_nba_team_roster",
-      "updatedAt": "2026-10-31T21:49:57Z",
+      "updatedAt": "2026-11-01T01:34:48Z",
       "status": "ok",
       "rows": [
         {
@@ -4426,7 +4471,7 @@
     {
       "label": "Home Team injuries",
       "function": "espn_nba_team_injuries",
-      "updatedAt": "2026-10-31T21:49:58Z",
+      "updatedAt": "2026-11-01T01:34:50Z",
       "status": "empty",
       "rows": [],
       "error": null
@@ -4434,7 +4479,7 @@
     {
       "label": "Home Team leaders",
       "function": "espn_nba_team_leaders",
-      "updatedAt": "2026-10-31T21:49:59Z",
+      "updatedAt": "2026-11-01T01:34:51Z",
       "status": "empty",
       "rows": [],
       "error": null

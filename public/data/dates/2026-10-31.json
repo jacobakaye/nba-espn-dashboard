@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T21:48:21Z",
+  "updatedAt": "2026-11-01T01:33:10Z",
   "source": "ESPN via hoopR",
   "games": [
     {
@@ -27,19 +27,19 @@
       "id": "401909897",
       "date": "2026-10-31",
       "time": "2026-10-31 18:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "20",
         "name": "Philadelphia 76ers",
         "abbreviation": "PHI",
-        "score": "0",
+        "score": "15",
         "record": "5-1"
       },
       "home": {
         "id": "30",
         "name": "Charlotte Hornets",
         "abbreviation": "CHA",
-        "score": "0",
+        "score": "21",
         "record": "3-3"
       }
     },
@@ -148,7 +148,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-10-31T21:48:20Z",
+      "updatedAt": "2026-11-01T01:33:09Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -156,7 +156,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-10-31T21:48:21Z",
+      "updatedAt": "2026-11-01T01:33:10Z",
       "status": "ok",
       "rows": [
         {
