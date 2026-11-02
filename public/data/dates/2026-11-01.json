@@ -1,46 +1,46 @@
 {
   "date": "2026-11-01",
-  "updatedAt": "2026-11-01T22:13:17Z",
+  "updatedAt": "2026-11-02T01:37:35Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909903",
       "date": "2026-11-01",
       "time": "2026-11-01 15:30:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FINAL",
       "away": {
         "id": "2",
         "name": "Boston Celtics",
         "abbreviation": "BOS",
-        "score": "0",
-        "record": "4-1"
+        "score": "108",
+        "record": "5-1"
       },
       "home": {
         "id": "19",
         "name": "Orlando Magic",
         "abbreviation": "ORL",
-        "score": "0",
-        "record": "2-3"
+        "score": "97",
+        "record": "2-4"
       }
     },
     {
       "id": "401909904",
       "date": "2026-11-01",
       "time": "2026-11-01 17:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FINAL",
       "away": {
         "id": "17",
         "name": "Brooklyn Nets",
         "abbreviation": "BKN",
-        "score": "0",
-        "record": "0-5"
+        "score": "98",
+        "record": "1-5"
       },
       "home": {
         "id": "11",
         "name": "Indiana Pacers",
         "abbreviation": "IND",
-        "score": "0",
-        "record": "2-4"
+        "score": "90",
+        "record": "2-5"
       }
     },
     {
@@ -88,7 +88,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-11-01T22:13:16Z",
+      "updatedAt": "2026-11-02T01:37:34Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -96,9 +96,23 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-11-01T22:13:17Z",
+      "updatedAt": "2026-11-02T01:37:35Z",
       "status": "ok",
       "rows": [
+        {
+          "team_id": null,
+          "athlete_id": null,
+          "athlete_name": null,
+          "position": null,
+          "status": null,
+          "date": null,
+          "type": null,
+          "side": null,
+          "returns_at": null,
+          "short_comment": null,
+          "long_comment": null,
+          "season": 2027
+        },
         {
           "team_id": null,
           "athlete_id": null,
