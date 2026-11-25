@@ -1,65 +1,65 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T20:45:57Z",
+  "updatedAt": "2026-11-25T04:59:08Z",
   "source": "ESPN via hoopR",
   "games": [
     {
       "id": "401909314",
       "date": "2026-11-24",
       "time": "2026-11-24 19:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FINAL",
       "away": {
         "id": "8",
         "name": "Detroit Pistons",
         "abbreviation": "DET",
-        "score": "0",
-        "record": "10-6"
+        "score": "104",
+        "record": "11-6"
       },
       "home": {
         "id": "19",
         "name": "Orlando Magic",
         "abbreviation": "ORL",
-        "score": "0",
-        "record": "7-9"
+        "score": "86",
+        "record": "7-10"
       }
     },
     {
       "id": "401909315",
       "date": "2026-11-24",
       "time": "2026-11-24 20:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_FINAL",
       "away": {
         "id": "2",
         "name": "Boston Celtics",
         "abbreviation": "BOS",
-        "score": "0",
-        "record": "11-6"
+        "score": "131",
+        "record": "12-6"
       },
       "home": {
         "id": "27",
         "name": "Washington Wizards",
         "abbreviation": "WSH",
-        "score": "0",
-        "record": "7-11"
+        "score": "116",
+        "record": "7-12"
       }
     },
     {
       "id": "401909316",
       "date": "2026-11-24",
       "time": "2026-11-24 22:00:00",
-      "status": "STATUS_SCHEDULED",
+      "status": "STATUS_IN_PROGRESS",
       "away": {
         "id": "6",
         "name": "Dallas Mavericks",
         "abbreviation": "DAL",
-        "score": "0",
+        "score": "88",
         "record": "10-7"
       },
       "home": {
         "id": "7",
         "name": "Denver Nuggets",
         "abbreviation": "DEN",
-        "score": "0",
+        "score": "79",
         "record": "10-5"
       }
     }
@@ -68,7 +68,7 @@
     {
       "label": "League standings",
       "function": "espn_nba_standings",
-      "updatedAt": "2026-11-24T20:45:56Z",
+      "updatedAt": "2026-11-25T04:59:07Z",
       "status": "error",
       "rows": [],
       "error": "argument \"year\" is missing, with no default"
@@ -76,7 +76,7 @@
     {
       "label": "NBA injuries",
       "function": "espn_nba_injuries",
-      "updatedAt": "2026-11-24T20:45:57Z",
+      "updatedAt": "2026-11-25T04:59:08Z",
       "status": "ok",
       "rows": [
         {
